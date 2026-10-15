@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="DevXingMC — Building beyond the blocks. Minecraft 插件、服务器工具与技术探索。" />
+  <a href="https://github.com/kyechan99/capsule-render"><img src="./assets/header.svg" width="100%" alt="DevXingMC · Minecraft plugins · Server tools · Exploring code — Capsule Render" /></a>
 </p>
 
 <p align="center">
@@ -64,12 +64,12 @@ Minecraft 地皮管理插件的个人分支。<br />
 ### 开发足迹
 
 <p align="center">
-  <img src="./assets/github-stats.svg" width="460" alt="DevXingMC 的 GitHub 公开统计：Stars、近一年提交、Pull Requests、Issues 与参与的仓库。" />
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="./assets/github-stats.svg" width="410" alt="DevXingMC 的 GitHub 公开统计：Stars、近一年提交、Pull Requests、Issues 与参与的仓库。" /></a>
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img align="center" src="./assets/streak-stats.svg" width="410" alt="DevXingMC 的总贡献、当前连续贡献与最长连续贡献天数。" /></a>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
     <img src="./assets/github-snake.svg" width="100%" alt="由 GitHub 近一年贡献日历生成的贪吃蛇动画；减少动态效果时显示静态贡献图。" />
   </picture>
@@ -79,19 +79,22 @@ Minecraft 地皮管理插件的个人分支。<br />
 
 <br />
 
-<p align="center">
-  <sub>Built with curiosity, one block at a time.</sub>
-</p>
-
 <details>
   <summary>关于这些组件</summary>
   <br />
 
+  横幅：[Capsule Render](https://github.com/kyechan99/capsule-render) ·
   统计：[GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) ·
+  连续贡献：[GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) ·
   图标：[Skill Icons](https://github.com/tandpfun/skill-icons) ·
   打字动画：[Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) ·
   贡献动画：[snk](https://github.com/Platane/snk)。
 
-  封面为专门绘制的 SVG。组件图片保存在本仓库；统计和贡献图由 GitHub Actions 每日刷新。
+  全部图片使用现成开源组件。参考了 [kyechan99](https://github.com/kyechan99/kyechan99)、[DenverCoder1](https://github.com/DenverCoder1/DenverCoder1)、[tandpfun](https://github.com/tandpfun/tandpfun) 和 [Platane](https://github.com/Platane/Platane) 的实际主页配置。
+  组件图片保存在本仓库；统计和贡献图由 GitHub Actions 每日刷新。[查看组件与来源](./docs/components.md)。
   Fork 项目的原作者已在项目介绍中标注。维护方式见 [维护说明](./docs/maintenance.md)。
 </details>
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Capsule Render 深蓝波浪页脚" />
+</p>

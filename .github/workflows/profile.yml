@@ -50,14 +50,17 @@ jobs:
             assets/github-snake.svg?color_snake=%233b82f6&color_dots=%23ebedf0,%23bae6fd,%237dd3fc,%2338bdf8,%230284c7
             assets/github-snake-dark.svg?palette=github-dark&color_snake=%2370d8ef&color_dots=%23162132,%231c4260,%23256b8d,%2336a3c1,%2370d8ef
 
-      - name: Validate visuals and build reduced-motion fallback
+      - name: Refresh official streak card
+        run: python3 scripts/refresh_streak.py
+
+      - name: Validate upstream component images
         run: python3 scripts/prepare_assets.py
 
       - name: Commit refreshed visuals
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/github-stats.svg assets/github-snake.svg assets/github-snake-dark.svg assets/contributions.svg
+          git add assets/github-stats.svg assets/github-snake.svg assets/github-snake-dark.svg assets/streak-stats.svg
           if git diff --cached --quiet; then
             echo 'Profile visuals are already up to date.'
             exit 0

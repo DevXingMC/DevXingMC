@@ -1,0 +1,32 @@
+[
+  {
+    "name": "header.svg",
+    "bytes": 2641,
+    "url": "https://capsule-render.vercel.app/api?type=waving&color=0%3A0d1117%2C50%3A173d6b%2C100%3A2563a8&height=230&section=header&text=DevXingMC&fontSize=64&fontColor=e6edf3&fontAlignY=36&desc=Minecraft+plugins+-+Server+tools+-+Exploring+code&descSize=18&descAlignY=57"
+  },
+  {
+    "name": "footer.svg",
+    "bytes": 2358,
+    "url": "https://capsule-render.vercel.app/api?type=waving&color=0%3A0d1117%2C50%3A173d6b%2C100%3A2563a8&height=90&section=footer"
+  },
+  {
+    "name": "tagline.svg",
+    "bytes": 1006,
+    "url": "https://capsule-render.vercel.app/api?type=transparent&height=50&text=Minecraft+plugins+and+server+tools&fontSize=25&fontColor=70d8ef"
+  },
+  {
+    "name": "streak-stats.svg",
+    "bytes": 6428,
+    "url": "https://streak-stats.demolab.com?user=DevXingMC&theme=github-dark-blue&background=0D1424&border=26354C&ring=70D8EF&fire=70D8EF&currStreakLabel=70D8EF&sideLabels=BFCCDE&dates=8B9FB9&border_radius=16&disable_animations=true&card_width=460&stroke=26354C&sideNums=70D8EF&currStreakNum=E6EDF3&timezone=Asia%2FShanghai"
+  },
+  {
+    "name": "capsule-license.txt",
+    "bytes": 1069,
+    "url": "https://raw.githubusercontent.com/kyechan99/capsule-render/main/LICENSE"
+  },
+  {
+    "name": "streak-license.txt",
+    "bytes": 1071,
+    "url": "https://raw.githubusercontent.com/DenverCoder1/github-readme-streak-stats/main/LICENSE"
+  }
+]
