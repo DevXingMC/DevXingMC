@@ -10,27 +10,27 @@
 </p>
 
 <p align="center">
-  你好，我是 <strong>DevXingMC</strong>。<br />
-  专注软件逆向与系统分析，探索代码背后的结构、机制与设计。
+  Hi, I'm <strong>DevXingMC</strong>.<br />
+  Exploring software internals through reverse engineering and systems analysis.
 </p>
 
 <p align="center">
-  <a href="https://github.com/DevXingMC?tab=repositories">浏览仓库</a>
+  <a href="https://github.com/DevXingMC?tab=repositories">Repositories</a>
   &nbsp; / &nbsp;
-  <a href="#projects">项目精选</a>
+  <a href="#projects">Selected Projects</a>
   &nbsp; / &nbsp;
-  <a href="#activity">开发足迹</a>
+  <a href="#activity">Activity</a>
 </p>
 
 <br />
 
-### 关注方向
+### Focus Areas
 
-软件逆向 &nbsp; · &nbsp; 程序分析 &nbsp; · &nbsp; AI 辅助研究
+Reverse Engineering &nbsp; · &nbsp; Program Analysis &nbsp; · &nbsp; AI-Assisted Research
 
 <p>
   <a href="https://github.com/tandpfun/skill-icons">
-    <img src="./assets/stack.svg" width="454" alt="Java、C++、Python、TypeScript、JavaScript、HTML、Git 与 GitHub" />
+    <img src="./assets/stack.svg" width="454" alt="Java, C++, Python, TypeScript, JavaScript, HTML, Git, and GitHub" />
   </a>
 </p>
 
@@ -40,35 +40,35 @@ Java &nbsp; · &nbsp; C++ &nbsp; · &nbsp; Python &nbsp; · &nbsp; TypeScript &n
 
 <a id="projects"></a>
 
-### 项目精选
+### Selected Projects
 
 
 **[REAinMC](https://github.com/DevXingMC/REAinMC)**<br />
-AI 辅助的逆向工程与程序分析探索。<br />
-<sub>Fork from <a href="https://github.com/morluto/rea">morluto/rea</a></sub>
+Exploring AI-assisted reverse engineering and program analysis.<br />
+<sub>Forked from <a href="https://github.com/morluto/rea">morluto/rea</a></sub>
 
 <br />
 
 <a id="activity"></a>
 
-### 开发足迹
+### Development Activity
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="./assets/github-stats.svg" width="410" alt="DevXingMC 的 GitHub 公开统计：Stars、近一年提交、Pull Requests、Issues 与参与的仓库。" /></a>
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img align="center" src="./assets/streak-stats.svg" width="410" alt="DevXingMC 的总贡献、当前连续贡献与最长连续贡献天数。" /></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="./assets/github-stats.svg" width="410" alt="DevXingMC's public GitHub statistics: stars, commits in the last year, pull requests, issues, and repositories contributed to." /></a>
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img align="center" src="./assets/streak-stats.svg" width="410" alt="DevXingMC's total contributions, current streak, and longest contribution streak." /></a>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-    <img src="./assets/github-snake.svg" width="100%" alt="由 GitHub 近一年贡献日历生成的贪吃蛇动画；减少动态效果时显示静态贡献图。" />
+    <img src="./assets/github-snake.svg" width="100%" alt="Snake animation of the past year's GitHub contributions, shown as a static calendar when reduced motion is enabled." />
   </picture>
 </p>
 
-<p align="center"><sub>贡献数据每日更新 · 私有贡献仅显示匿名数量</sub></p>
+<p align="center"><sub>Contribution data updated daily · Private contributions shown as anonymous counts</sub></p>
 
 <br />
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Capsule Render 深蓝波浪页脚" />
+  <img src="./assets/footer.svg" width="100%" alt="Deep blue wave footer by Capsule Render" />
 </p>
