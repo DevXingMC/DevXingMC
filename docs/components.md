@@ -13,8 +13,9 @@
 
 ## 保存方式
 
-- Capsule Render、Typing SVG 和 Streak Stats：官方组件服务输出的 SVG，下载到 `assets/`，只配置用户名、文案、尺寸和色系。
-- Skill Icons：官方服务在制作环境无法连接，因此从原仓库下载 Java、TypeScript、JavaScript、Git、GitHub 图标，按组件常见方式横向排列；图标路径未重画。
+- Capsule Render 和 Typing SVG：官方组件服务输出的 SVG，下载到 `assets/`，只配置用户名、文案、尺寸和色系。
+- Streak Stats：使用上游官方 GitHub Action 生成 SVG，避免公共服务缓存造成私有贡献数量延迟；使用 GitHub 对外提供的匿名贡献日历，不读取私有仓库内容。
+- Skill Icons：官方服务在制作环境无法连接，因此从原仓库下载 Java、C++、Python、TypeScript、JavaScript、HTML、Git、GitHub 图标，按组件常见方式横向排列；图标路径未重画。
 - GitHub Readme Stats：使用原仓库的卡片渲染器；数据查询改用公开汇总字段，以支持默认 Actions 令牌。没有重画统计卡。
 - snk：使用上游 GitHub Action；只调整主题参数，并添加“减少动态效果”时暂停 CSS 动画的规则，保留原始图案。
 

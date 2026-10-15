@@ -80,7 +80,7 @@ const svg = renderStatsCard(stats, {
   border_color: '26354c',
   border_radius: 16,
   card_width: 460,
-  custom_title: 'GitHub activity',
+  custom_title: 'Public GitHub activity',
   disable_animations: true,
 });
 await writeFile(new URL('../assets/github-stats.svg', import.meta.url), svg);

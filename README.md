@@ -30,11 +30,11 @@
 
 <p>
   <a href="https://github.com/tandpfun/skill-icons">
-    <img src="./assets/stack.svg" height="48" alt="Java、TypeScript、JavaScript、Git 与 GitHub" />
+    <img src="./assets/stack.svg" width="454" alt="Java、C++、Python、TypeScript、JavaScript、HTML、Git 与 GitHub" />
   </a>
 </p>
 
-Java &nbsp; · &nbsp; TypeScript &nbsp; · &nbsp; JavaScript &nbsp; · &nbsp; Git
+Java &nbsp; · &nbsp; C++ &nbsp; · &nbsp; Python &nbsp; · &nbsp; TypeScript &nbsp; · &nbsp; JavaScript &nbsp; · &nbsp; HTML &nbsp; · &nbsp; Git
 
 <br />
 
@@ -65,7 +65,7 @@ AI 辅助的逆向工程与程序分析探索。<br />
   </picture>
 </p>
 
-<p align="center"><sub>公开统计每日更新</sub></p>
+<p align="center"><sub>贡献数据每日更新 · 私有贡献仅显示匿名数量</sub></p>
 
 <br />
 

@@ -50,8 +50,15 @@ jobs:
             assets/github-snake.svg?color_snake=%233b82f6&color_dots=%23ebedf0,%23bae6fd,%237dd3fc,%2338bdf8,%230284c7
             assets/github-snake-dark.svg?palette=github-dark&color_snake=%2370d8ef&color_dots=%23162132,%231c4260,%23256b8d,%2336a3c1,%2370d8ef
 
-      - name: Refresh official streak card
-        run: python3 scripts/refresh_streak.py
+      - name: Generate official streak card
+        uses: DenverCoder1/github-readme-streak-stats@9d9349d07184e2d3fa541a221d6a2f752c0ee285
+        env:
+          DISABLE_CACHE: "true"
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: assets/streak-stats.svg
+          options: >-
+            {"user":"${{ github.repository_owner }}","theme":"github-dark-blue","background":"0D1424","border":"26354C","ring":"70D8EF","fire":"70D8EF","currStreakLabel":"70D8EF","sideLabels":"BFCCDE","dates":"8B9FB9","border_radius":16,"disable_animations":true,"card_width":460,"stroke":"26354C","sideNums":"70D8EF","currStreakNum":"E6EDF3","timezone":"Asia/Shanghai"}
 
       - name: Validate upstream component images
         run: python3 scripts/prepare_assets.py

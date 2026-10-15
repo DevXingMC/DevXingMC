@@ -21,7 +21,7 @@ GitHub Readme Stats 的提交数为近一年，Stars、PR 和 Issues 按组件�
 
 贪吃蛇动画提供深色和浅色版本；访客启用“减少动态效果”时，停留在原组件的初始画面。打字动画也有 Capsule Render 静态文字组件作为替代。
 
-连续贡献卡来自 Streak Stats 的官方公共服务。本仓库每天下载并验证，服务暂时不可用时保留上一次的卡片，其余统计仍可正常更新。
+连续贡献卡使用 Streak Stats 官方 GitHub Action，在每次工作流中直接生成并验证，不再依赖公共服务的 24 小时缓存。它和贪吃蛇采用公开可见的贡献日历；启用 Private contributions 后，可包含匿名私有贡献数量。Public GitHub activity 卡片仍按公开活动统计。工作流失败时不会提交图片，线上保留上一版。
 
 第三方 Actions 固定到提交 SHA。升级前应检查上游变更，并在 Actions 中验证生成结果。GitHub 可能暂停长期没有仓库活动的公共仓库定时任务，届时在 Actions 中重新启用即可。
 

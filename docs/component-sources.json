@@ -17,7 +17,9 @@
   {
     "name": "streak-stats.svg",
     "bytes": 6428,
-    "url": "https://streak-stats.demolab.com?user=DevXingMC&theme=github-dark-blue&background=0D1424&border=26354C&ring=70D8EF&fire=70D8EF&currStreakLabel=70D8EF&sideLabels=BFCCDE&dates=8B9FB9&border_radius=16&disable_animations=true&card_width=460&stroke=26354C&sideNums=70D8EF&currStreakNum=E6EDF3&timezone=Asia%2FShanghai"
+    "url": "https://streak-stats.demolab.com?user=DevXingMC&theme=github-dark-blue&background=0D1424&border=26354C&ring=70D8EF&fire=70D8EF&currStreakLabel=70D8EF&sideLabels=BFCCDE&dates=8B9FB9&border_radius=16&disable_animations=true&card_width=460&stroke=26354C&sideNums=70D8EF&currStreakNum=E6EDF3&timezone=Asia%2FShanghai",
+    "generator": "https://github.com/DenverCoder1/github-readme-streak-stats/tree/9d9349d07184e2d3fa541a221d6a2f752c0ee285",
+    "method": "GitHub Action; public endpoint URL retained as a configuration reference"
   },
   {
     "name": "capsule-license.txt",
@@ -33,5 +35,19 @@
     "name": "typing.svg",
     "bytes": 8530,
     "url": "https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1500&color=70D8EF&center=true&vCenter=true&width=580&height=42&lines=Reverse+engineering+and+systems+analysis%3BTracing+behavior.+Understanding+internals.%3BTurning+complex+code+into+clear+insights&repeat=true"
+  },
+  {
+    "name": "stack.svg",
+    "bytes": 13871,
+    "sources": [
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CPP.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg",
+      "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg"
+    ]
   }
 ]
