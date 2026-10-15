@@ -69,15 +69,6 @@ AI 辅助的逆向工程与程序分析探索。<br />
 
 <br />
 
-<details>
-  <summary>关于这些组件</summary>
-  <br />
-
-  横幅：[Capsule Render](https://github.com/kyechan99/capsule-render) ·
-
-
-</details>
-
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="Capsule Render 深蓝波浪页脚" />
 </p>
