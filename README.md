@@ -25,7 +25,7 @@
 
 ### 正在探索
 
-Minecraft 插件生态、服务器工具，以及用 AI 辅助理解代码。
+软件逆向工程
 
 <p>
   <a href="https://github.com/tandpfun/skill-icons">
