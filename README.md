@@ -1,16 +1,17 @@
 <p align="center">
-  <a href="https://github.com/kyechan99/capsule-render"><img src="./assets/header.svg" width="100%" alt="DevXingMC · Minecraft plugins · Server tools · Exploring code — Capsule Render" /></a>
+  <a href="https://github.com/kyechan99/capsule-render"><img src="./assets/header.svg" width="100%" alt="DevXingMC · Reverse Engineering · Systems Internals · Program Analysis — Capsule Render" /></a>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/tagline.svg" />
-    <img src="./assets/typing.svg" width="580" alt="Minecraft plugins · Server tools · Always exploring" />
+    <img src="./assets/typing.svg" width="580" alt="Reverse engineering and systems analysis · Tracing behavior. Understanding internals." />
   </picture>
 </p>
 
 <p align="center">
   你好，我是 <strong>DevXingMC</strong>。<br />
+  专注软件逆向与系统分析，探索代码背后的结构、机制与设计。
 </p>
 
 <p align="center">
@@ -23,9 +24,9 @@
 
 <br />
 
-### 正在探索
+### 关注方向
 
-软件逆向工程
+软件逆向 &nbsp; · &nbsp; 程序分析 &nbsp; · &nbsp; AI 辅助研究
 
 <p>
   <a href="https://github.com/tandpfun/skill-icons">
@@ -43,7 +44,7 @@ Java &nbsp; · &nbsp; TypeScript &nbsp; · &nbsp; JavaScript &nbsp; · &nbsp; Gi
 
 
 **[REAinMC](https://github.com/DevXingMC/REAinMC)**<br />
-针对MC的逆向工程<br />
+AI 辅助的逆向工程与程序分析探索。<br />
 <sub>Fork from <a href="https://github.com/morluto/rea">morluto/rea</a></sub>
 
 <br />

@@ -1,8 +1,8 @@
 [
   {
     "name": "header.svg",
-    "bytes": 2641,
-    "url": "https://capsule-render.vercel.app/api?type=waving&color=0%3A0d1117%2C50%3A173d6b%2C100%3A2563a8&height=230&section=header&text=DevXingMC&fontSize=64&fontColor=e6edf3&fontAlignY=36&desc=Minecraft+plugins+-+Server+tools+-+Exploring+code&descSize=18&descAlignY=57"
+    "bytes": 2650,
+    "url": "https://capsule-render.vercel.app/api?type=waving&color=0%3A0d1117%2C50%3A173d6b%2C100%3A2563a8&height=230&section=header&text=DevXingMC&fontSize=64&fontColor=e6edf3&fontAlignY=36&desc=Reverse%20Engineering%20-%20Systems%20Internals%20-%20Program%20Analysis&descSize=18&descAlignY=57"
   },
   {
     "name": "footer.svg",
@@ -11,8 +11,8 @@
   },
   {
     "name": "tagline.svg",
-    "bytes": 1006,
-    "url": "https://capsule-render.vercel.app/api?type=transparent&height=50&text=Minecraft+plugins+and+server+tools&fontSize=25&fontColor=70d8ef"
+    "bytes": 1012,
+    "url": "https://capsule-render.vercel.app/api?type=transparent&height=50&text=Reverse%20engineering%20and%20systems%20analysis&fontSize=25&fontColor=70d8ef"
   },
   {
     "name": "streak-stats.svg",
@@ -28,5 +28,10 @@
     "name": "streak-license.txt",
     "bytes": 1071,
     "url": "https://raw.githubusercontent.com/DenverCoder1/github-readme-streak-stats/main/LICENSE"
+  },
+  {
+    "name": "typing.svg",
+    "bytes": 8530,
+    "url": "https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1500&color=70D8EF&center=true&vCenter=true&width=580&height=42&lines=Reverse+engineering+and+systems+analysis%3BTracing+behavior.+Understanding+internals.%3BTurning+complex+code+into+clear+insights&repeat=true"
   }
 ]
