@@ -36,6 +36,6 @@ GitHub Readme Stats 的提交数为近一年，Stars、PR 和 Issues 按组件�
 | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) | 9,422 | 打字动画 |
 | [snk](https://github.com/Platane/snk) | 6,125 | 贡献日历贪吃蛇 |
 
-统计图使用上游文档推荐的 [GitHub Readme Stats Action](https://github.com/stats-organization/github-readme-stats-action)，其仓库星数为 312，与统计组件本身的星数不同。
+统计图直接使用 `anuraghazra/github-readme-stats` 的原始渲染器，相关源文件保存在 `vendor/github-readme-stats`，来源提交和许可随文件保留。两个 npm 依赖通过 `package-lock.json` 锁定版本与完整性。`scripts/render_stats.mjs` 仅查询公开仓库的 `stargazerCount` 汇总和公开活动数据，不查询受限的 Stargazers 用户列表，因此兼容仓库自带的 `GITHUB_TOKEN`。
 
 两个设计 skill 已存在于制作环境中，本次没有重复安装。README、封面和配色为本主页定制，第三方许可保存在 `licenses/`。

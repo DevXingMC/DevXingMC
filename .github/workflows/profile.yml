@@ -9,6 +9,9 @@ on:
     paths:
       - '.github/workflows/profile.yml'
       - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vendor/**'
 
 permissions:
   contents: write
@@ -23,15 +26,21 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Check out profile
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install pinned renderer
+        run: npm ci --omit=dev --ignore-scripts --no-audit --no-fund
 
       - name: Render GitHub statistics
-        uses: stats-organization/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&bg_color=0d1424&title_color=70d8ef&text_color=bfccde&icon_color=70d8ef&border_color=26354c&border_radius=16&card_width=460&custom_title=GitHub%20activity&disable_animations=true
-          path: assets/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run render:stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Render contribution snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3

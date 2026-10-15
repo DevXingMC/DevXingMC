@@ -1,0 +1,12 @@
+{
+  "name": "devxingmc-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render:stats": "node scripts/render_stats.mjs"
+  },
+  "dependencies": {
+    "emoji-name-map": "2.0.3",
+    "word-wrap": "1.2.5"
+  }
+}
